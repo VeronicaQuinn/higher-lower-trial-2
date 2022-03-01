@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cb0be301ad.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Higher-Lower</title>
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+
+
+</head>
+<body>
+    <h1 class="heading">HIGHER or LOWER?</h1>
+    <h2>You Decide!</h2>
+    <div id="game-area">
+        <div class="card-container">
+            <span id="deck" class = "pile">
+                <!-- <div class = "front">Front</div>
+                <div class = "back">Back</div> -->
+
+                </span>
+                <button id="start-game" onclick = "startGame()">Start</button>
+            <span id="card" class = "pile">
+                <!-- <div class = "front">Front</div>
+                <div class = "back">Back</div> -->
+            </span>
+        </div>
+
+        <div class="plus-minus-buttons">
+            <button data-type="submit" id = "higher" onclick = "guess()" class="button green">
+                <i class="fas fa-plus-circle"></i>                           
+            </button>
+            <button data-type="submit" id = "lower" onclick = "guess()" class="button red">
+                <i class="fas fa-minus-circle"></i> </button>
+        </div>
+
+        <div class="score-area">
+            <h3 class="scores">SCORE: <span id="score">0</span></h3>
+                  </div>
+    </div>
+    <footer></footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    text-align: center;
+    padding: 1.5rem 0 .5rem;
+}
+
+#game-area {
+    height: 59vh;
+    background-color: lightcyan;
+    padding: 1rem 0;
+    border-radius: 8px;
+}
+
+.card-container {
+    /* position: absolute; */
+    width: 85%;
+    height: 32vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    /* transform: translate(-50%, -50%); */
+}
+
+/* .pile {
+    position: relative;
+    transform-style: preserve -3d;
+    transition: all 0.8s ease;
+}
+.front {
+    position: absolute;
+    backface-visibility: hidden;
+}
+.back {
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+.flipCard {
+    transform: rotateY(180deg);
+
+} */
+#start-game {
+    height: 2rem;
+    width: 3.5rem;
+    border-color: purple;
+    border-radius: 6px;
+}
+
+#deck {
+    border: 1px solid darkorchid;
+    width: 5.5rem;
+    height: 8rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background-color: ivory;
+}
+
+#card {
+    border: 1px solid darkorchid;
+    width: 5.5rem;
+    height: 8rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background-color: ivory;
+}
+
+.plus-minus-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: .5rem 0;
+}
+
+.plus-minus-buttons button {
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.button i {
+font-size: 3.3rem;
+/* overflow: hidden; */
+}
+
+.green{
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.score-area {
+    text-align: center;
+    font-size: 18px;
+}
